@@ -19,6 +19,7 @@ const Navigation = (props) => {
         </Link>
         <header className={classes.header}></header>
       </nav>
+      <CartButton></CartButton>
     </Fragment>
   );
 };

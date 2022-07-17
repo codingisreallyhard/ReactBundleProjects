@@ -2,13 +2,12 @@ import "./App.css";
 import { useContext, useState } from "react";
 import CartButton from "./UI/CartButton";
 import Navigation from "./UI/Navigation";
-import { Route, Router, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import MealsPage from "./Pages/MealsPage";
 import FavoritePage from "./Pages/FavoritePage";
 import MainPage from "./Pages/MainPage";
 import "./App.css";
 import Cart from "./Cart/Cart";
-
 
 function App() {
   const [cartShow, setCartShow] = useState(false);

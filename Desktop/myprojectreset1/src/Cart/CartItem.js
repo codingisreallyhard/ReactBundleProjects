@@ -10,6 +10,7 @@ const CartItem = (props) => {
   return (
     <div>
       <h2>{product.title}</h2>
+      <div>{product.description}</div>
       <div>{product.price}</div>
     </div>
   );
